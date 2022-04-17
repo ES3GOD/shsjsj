@@ -42,7 +42,7 @@ for module_name in ALL_MODULES:
 def start(update: Update, context: CallbackContext):
     if update.effective_chat.type == "private":
         update.effective_message.reply_photo(
-            HYPE_AFK_BOT_IMG,
+            GOD_AFK_BOT_IMG,
             AFKSAY,
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup([[
@@ -51,7 +51,7 @@ def start(update: Update, context: CallbackContext):
                     url="t.me/{}?startgroup=true".format(context.bot.username),)], ]),)
     else:
         update.effective_message.reply_photo(
-            HYPE_AFK_BOT_IMG,
+            GOD_AFK_BOT_IMG,
             "—🚸••÷[Gσԃ Aϝƙ Bσƚ]÷••🚸—\n\n♦️𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓♦️\n𝘐 𝘩𝘢𝘷𝘦 𝘵𝘰 𝘣𝘦 𝘢𝘥𝘮𝘪𝘯 𝘪𝘯𝘰𝘳𝘥𝘦𝘳 𝘵𝘰 𝘸𝘰𝘳𝘬 𝘱𝘳𝘰𝘱𝘦𝘳𝘭𝘺.\n\n—🚸••÷[Gσԃ Aϝƙ Bσƚ]÷••🚸—",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup([[
